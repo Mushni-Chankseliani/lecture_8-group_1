@@ -1,0 +1,213 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*global start*/
+.d-flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.flex-center-center {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.flex-between-center {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+/*global end*/
+
+
+/*section 1 start*/
+
+.section-1-container {
+	background-image: url("../images/landscape.jpg");
+	height: 700px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	-webkit-box-pack: center;
+
+	    -ms-flex-pack: center;
+
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.section-1-container h1 {
+	font-size: 42px;
+	color: red;
+	margin-bottom: 15px;
+}
+
+.section-1-container > h2 {
+	font-size: 34px;
+	color: red;
+}
+/*section 1 end*/
+
+/*section 2 start*/
+.section-2 {
+	background-color: #E9F4FF;
+	padding: 60px 0 150px;
+}
+
+.section-2-container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.section-2-titles {
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.section-2-titles > h5 {
+	font-size: 20px;
+	color: #3D37F1;
+	margin-bottom: 15px;
+}
+
+.section-2-titles > h2 {
+	font-size: 40px;
+	color: #5A5454;
+	margin-bottom: 15px;
+}
+
+.section-2-titles > p {
+	font-size: 18px;
+	color: #747474;
+}
+
+.line-1 {
+	/*display: flex;
+	justify-content: space-between;*/
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+
+
+.card {
+	width: 370px;
+	height: 450px;
+	background-color: darkcyan;
+
+	display: -webkit-box;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.card:first-child {
+	background-color: red;
+	margin-bottom: 60px;
+}
+
+.card:first-child > h4 {
+	color: white;
+	font-size: 32px;
+}
+
+.card:nth-child(2) {
+	background-color: orange;
+	margin-bottom: 60px;
+}
+.card:nth-child(3) {
+	background-color: blue;
+	margin-bottom: 60px;
+}
+.card:nth-child(4) {
+	background-color: green;
+}
+.card:nth-child(5) {
+	background-color: yellow;
+}
+.card:last-child {
+	background-color: aqua;
+}
+
+/*.card:nth-child(even) {
+	background-color: orange;
+}
+.card:nth-child(odd) {
+	background-color: orange;
+}
+.card:nth-child(3n) {
+	background-color: orange;
+}*/
+
+/*section 2 end*/
+
+/*footer start*/
+.footer-container {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.fa-facebook {
+	font-size: 50px;
+	margin-right: 20px;
+	-webkit-transition: all 2s;
+	-o-transition: all 2s;
+	transition: all 2s;
+}
+
+.fa-facebook:hover {
+	color: red;
+}
+
+.msngr {
+	font-size: 50px;
+	-webkit-transition: all 2s;
+	-o-transition: all 2s;
+	transition: all 2s;
+}
+
+.msngr:hover {
+	color: blue;
+}
+/*footer end*/
